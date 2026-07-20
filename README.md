@@ -28,9 +28,9 @@ global-sales-analysis/
 │   └── Final Sales_Analysis.xlsx          # Full Excel workbook (5 sheets)
 ├── report/
 │   └── Sales_Report_v3.docx      # Business Intelligence Report
-└── images/
+└── Dashboards/
     ├── dashboard.png        # Full dashboard view
-    └── dashboard.png        # Dashboard with active filters
+    └── dashboard2.png        # Dashboard with active filters
 ```
 
 ---
