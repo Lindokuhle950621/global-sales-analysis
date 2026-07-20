@@ -23,14 +23,14 @@ global-sales-analysis/
 │
 ├── README.md
 ├── sql/
-│   └── sales_queries.sql            # Full SQL query package
+│   └── SQL queries.sql            # Full SQL query package
 ├── excel/
-│   └── Sales_Analysis.xlsx          # Full Excel workbook (5 sheets)
+│   └── Final Sales_Analysis.xlsx          # Full Excel workbook (5 sheets)
 ├── report/
-│   └── OptiCore_Report_v3.docx      # Business Intelligence Report
+│   └── Sales_Report_v3.docx      # Business Intelligence Report
 └── images/
-    ├── dashboard-overview.png        # Full dashboard view
-    └── dashboard-filtered.png        # Dashboard with active filters
+    ├── dashboard.png        # Full dashboard view
+    └── dashboard.png        # Dashboard with active filters
 ```
 
 ---
