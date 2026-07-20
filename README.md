@@ -96,21 +96,6 @@ The average customer rating is 3.0 out of 5 across all channels. Customers at th
 
 ---
 
-## 🗃️ SQL Query Package
-
-The `sql/sales_queries.sql` file covers:
-
-- Table setup (CREATE TABLE, data types)
-- Revenue and profit by country, category, channel, and product
-- Monthly revenue trend analysis
-- Top 10 products by revenue and margin
-- H1 vs H2 revenue comparison
-- Customer satisfaction analysis
-- Payment method distribution
-- Market classification (Top / Mid / Underperforming)
-
----
-
 ## 📄 Business Intelligence Report
 
 The `report/OptiCore_Report_v3.docx` is a full client-style report that includes:
@@ -137,10 +122,7 @@ The `report/OptiCore_Report_v3.docx` is a full client-style report that includes
 ## 👤 About
 
 **Praisworth Lindokuhle Jonas**
-Data Analyst | Founder, OptiCore Systems
-📍 Hanover, Northern Cape, South Africa
-🔗 [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE)
-📧 your.email@example.com
+📧 lindojon004@gmail.com
 
 ---
 
