@@ -1,0 +1,50 @@
+                                -View_the-data
+SELECT * FROM Sales
+LIMIT 20
+SELECT DISTINCT country
+FROM Sales
+order BY country;
+Select DISTINCT product_name, product_category FROM Sales
+order by product_category
+
+                                Check_Data_Issues
+
+SELECT sum(CASE WHEN order_id is NULL THEN 1 ELSE 0 END) as Null_order_id,
+       sum(CASE WHEN product_name IS NULL THEN 1 ELSE 0 end) as Null_product_Name,
+       sum(CASE WHEN product_category is NULL then 1 ELSE 0 END) as Null_product_category,
+       sum(CASE when revenue Is NULL THEN 1 else 0 end) as Null_Revenue,
+       sum(case when profit is NULL then 1 else 0 END) As Null_profit
+FROM Sales;
+
+SELECT order_id, COUNT(*) as duplicate_count
+FROM Sales
+GROUP by order_id HAVING COUNT(*) > 1;
+
+Select * FROM Sales where revenue < 0
+                      OR profit < 0
+                      or quantity < 0;
+                      
+                      Descriptive Analyisis
+                      
+ SELECT Round( Sum(revenue),2) AS Total_Revenue,
+        Round( Sum(cost),2) As Total_cost,
+        Round( Sum(profit),2) As Total_Profit
+From Sales;
+
+SELECT Round(Sum(profit)/Sum(revenue)*100,2) as Profit_Margin_percent
+from Sales
+
+SELECT Round(Sum(revenue)/Count(order_id),2) As Avarage_order_Velue
+from Sales
+
+SELECT country,
+       Round( Sum(profit),2) As Total_Profit
+from Sales
+GROUP by country
+ORDER by Total_Profit DESC;
+
+SELECT product_name,
+       Round( Sum(profit),2) As Total_Profit
+from Sales
+GROUP by product_name
+ORDER by Total_Profit DESC;
